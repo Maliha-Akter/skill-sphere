@@ -6,6 +6,7 @@
     "duration": "20 hours",
     "rating": 4.8,
     "level": "Beginner",
+    "price": "$9.99",
     "description": "Learn full-stack web development from scratch.",
     "image": "https://i.ibb.co.com/F4Wm44S9/one.jpg",
     "category": "Development"
@@ -17,6 +18,7 @@
     "duration": "15 hours",
     "rating": 4.9,
     "level": "Intermediate",
+    "price": "$14.99",
     "description": "Build modern web applications using React and Next.js.",
     "image": "https://i.ibb.co.com/FqwQLj10/two.jpg",
     "category": "Development"
@@ -28,6 +30,7 @@
     "duration": "18 hours",
     "rating": 4.7,
     "level": "Beginner",
+    "price": "$12.99",
     "description": "Master JavaScript fundamentals and advanced concepts.",
     "image": "https://i.ibb.co.com/0pTxFjCQ/three.png",
     "category": "Development"
@@ -39,6 +42,7 @@
     "duration": "12 hours",
     "rating": 4.8,
     "level": "Beginner",
+    "price": "$19.99",
     "description": "Learn the principles of user interface and user experience design.",
     "image": "https://i.ibb.co.com/6cvHjzq2/Four.jpg",
     "category": "Design"
@@ -48,8 +52,9 @@
     "title": "Figma for Designers",
     "instructor": "David Smith",
     "duration": "10 hours",
-    "rating": 4.6,
+    "rating": 4.3,
     "level": "Beginner",
+    "price": "$9.99",
     "description": "Design professional interfaces and prototypes using Figma.",
     "image": "https://i.ibb.co.com/B5zt7ZYD/five.png",
     "category": "Design"
@@ -59,8 +64,9 @@
     "title": "Graphic Design Masterclass",
     "instructor": "Sophia Taylor",
     "duration": "16 hours",
-    "rating": 4.9,
+    "rating": 5.0,
     "level": "Intermediate",
+    "price": "$24.99",
     "description": "Create stunning visual designs and branding materials.",
     "image": "https://i.ibb.co.com/PskwK6wG/six.jpg",
     "category": "Design"
@@ -70,8 +76,9 @@
     "title": "Digital Marketing Fundamentals",
     "instructor": "Chris Johnson",
     "duration": "14 hours",
-    "rating": 4.7,
+    "rating": 4.1,
     "level": "Beginner",
+    "price": "$14.99",
     "description": "Understand the basics of digital marketing and online growth.",
     "image": "https://i.ibb.co.com/5xXRRDfX/seven.png",
     "category": "Marketing"
@@ -83,6 +90,7 @@
     "duration": "9 hours",
     "rating": 4.8,
     "level": "Intermediate",
+    "price": "$19.99",
     "description": "Improve website visibility through effective SEO techniques.",
     "image": "https://i.ibb.co.com/hb7LLrB/eight.jpg",
     "category": "Marketing"
@@ -94,6 +102,7 @@
     "duration": "11 hours",
     "rating": 4.6,
     "level": "Beginner",
+    "price": "$12.99",
     "description": "Grow brands and engage audiences through social platforms.",
     "image": "https://i.ibb.co.com/0pwHGSsG/nine.png",
     "category": "Marketing"
@@ -105,6 +114,7 @@
     "duration": "17 hours",
     "rating": 4.9,
     "level": "Beginner",
+    "price": "$29.99",
     "description": "Learn Python programming from the ground up.",
     "image": "https://i.ibb.co.com/wFWWjz6Y/ten.png",
     "category": "Programming"
@@ -114,8 +124,9 @@
     "title": "Data Science with Python",
     "instructor": "Anna Martinez",
     "duration": "22 hours",
-    "rating": 4.8,
+    "rating": 4.3,
     "level": "Intermediate",
+    "price": "$34.99",
     "description": "Analyze data and build machine learning models using Python.",
     "image": "https://i.ibb.co.com/6c8JMNbt/11.png",
     "category": "Data Science"
@@ -125,8 +136,9 @@
     "title": "Machine Learning Fundamentals",
     "instructor": "James Anderson",
     "duration": "25 hours",
-    "rating": 4.9,
+    "rating": 3.9,
     "level": "Advanced",
+    "price": "$49.99",
     "description": "Understand machine learning algorithms and applications.",
     "image": "https://i.ibb.co.com/9HhgvK88/12.jpg",
     "category": "Data Science"
@@ -136,8 +148,9 @@
     "title": "Mobile App Development with Flutter",
     "instructor": "Olivia Harris",
     "duration": "19 hours",
-    "rating": 4.7,
+    "rating": 4.0,
     "level": "Intermediate",
+    "price": "$24.99",
     "description": "Build cross-platform mobile applications using Flutter.",
     "image": "https://i.ibb.co.com/fdjc399D/13.jpg",
     "category": "Development"
@@ -147,8 +160,9 @@
     "title": "Cybersecurity Basics",
     "instructor": "William Scott",
     "duration": "13 hours",
-    "rating": 4.8,
+    "rating": 4.5,
     "level": "Beginner",
+    "price": "$19.99",
     "description": "Learn how to protect systems and data from cyber threats.",
     "image": "https://i.ibb.co.com/DPMfvP9m/14.jpg",
     "category": "Security"
@@ -158,8 +172,9 @@
     "title": "Cloud Computing Essentials",
     "instructor": "Ethan Walker",
     "duration": "15 hours",
-    "rating": 4.7,
+    "rating": 4.6,
     "level": "Intermediate",
+    "price": "$29.99",
     "description": "Understand cloud services and deployment models.",
     "image": "https://i.ibb.co.com/7xB0b5gs/15.jpg",
     "category": "Cloud"
@@ -171,6 +186,7 @@
     "duration": "18 hours",
     "rating": 4.8,
     "level": "Intermediate",
+    "price": "$39.99",
     "description": "Manage projects efficiently using industry best practices.",
     "image": "https://i.ibb.co.com/HppGrsrS/16.jpg",
     "category": "Business"
@@ -182,6 +198,7 @@
     "duration": "14 hours",
     "rating": 4.6,
     "level": "Intermediate",
+    "price": "$34.99",
     "description": "Use data-driven insights to make business decisions.",
     "image": "https://i.ibb.co.com/ynfhSz0Y/17.jpg",
     "category": "Business"
@@ -193,6 +210,7 @@
     "duration": "21 hours",
     "rating": 4.9,
     "level": "Advanced",
+    "price": "$49.99",
     "description": "Explore the core concepts and future of artificial intelligence.",
     "image": "https://i.ibb.co.com/HLRMB920/18.jpg",
     "category": "AI"

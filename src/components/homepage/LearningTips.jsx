@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AllCourseCard = () => {
+const LearningTips = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const AllCourseCard = () => {
     );
 };
 
-export default AllCourseCard;
+export default LearningTips;

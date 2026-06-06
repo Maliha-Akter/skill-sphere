@@ -14,18 +14,18 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-purple-900">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-purple-900 gap-3">
                         <li><NavLink href={"/"}>Home</NavLink></li>
-                        <li><NavLink href={"/courses"}>Courses</NavLink></li>
+                        <li><NavLink href={"/allCourses"}>Courses</NavLink></li>
                         <li><NavLink href={"/my-profile"}>My Profile</NavLink></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-2xl text-purple-900"> <IoSchoolOutline />SkillSphere</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-purple-900 font-semibold">
+                <ul className="menu menu-horizontal px-1 text-purple-900 font-semibold gap-3">
                     <li><NavLink href={"/"}>Home</NavLink></li>
-                        <li><NavLink href={"/courses"}>Courses</NavLink></li>
+                        <li><NavLink href={"/allCourses"}>Courses</NavLink></li>
                         <li><NavLink href={"/my-profile"}>My Profile</NavLink></li>
                 </ul>
             </div>

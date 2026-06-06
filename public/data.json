@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.ibb.co.com/F4Wm44S9/one.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced React & Next.js",
+    "instructor": "Sarah Wilson",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Build modern web applications using React and Next.js.",
+    "image": "https://i.ibb.co.com/FqwQLj10/two.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Mastery",
+    "instructor": "Michael Brown",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Master JavaScript fundamentals and advanced concepts.",
+    "image": "https://i.ibb.co.com/0pTxFjCQ/three.png",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Essentials",
+    "instructor": "Emily Davis",
+    "duration": "12 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn the principles of user interface and user experience design.",
+    "image": "https://i.ibb.co.com/6cvHjzq2/Four.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 5,
+    "title": "Figma for Designers",
+    "instructor": "David Smith",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Design professional interfaces and prototypes using Figma.",
+    "image": "https://i.ibb.co.com/B5zt7ZYD/five.png",
+    "category": "Design"
+  },
+  {
+    "id": 6,
+    "title": "Graphic Design Masterclass",
+    "instructor": "Sophia Taylor",
+    "duration": "16 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Create stunning visual designs and branding materials.",
+    "image": "https://i.ibb.co.com/PskwK6wG/six.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 7,
+    "title": "Digital Marketing Fundamentals",
+    "instructor": "Chris Johnson",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Understand the basics of digital marketing and online growth.",
+    "image": "https://i.ibb.co.com/5xXRRDfX/seven.png",
+    "category": "Marketing"
+  },
+  {
+    "id": 8,
+    "title": "SEO Strategy & Optimization",
+    "instructor": "Jessica White",
+    "duration": "9 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Improve website visibility through effective SEO techniques.",
+    "image": "https://i.ibb.co.com/hb7LLrB/eight.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 9,
+    "title": "Social Media Marketing",
+    "instructor": "Daniel Clark",
+    "duration": "11 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Grow brands and engage audiences through social platforms.",
+    "image": "https://i.ibb.co.com/0pwHGSsG/nine.png",
+    "category": "Marketing"
+  },
+  {
+    "id": 10,
+    "title": "Python for Beginners",
+    "instructor": "Robert Lee",
+    "duration": "17 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Learn Python programming from the ground up.",
+    "image": "https://i.ibb.co.com/wFWWjz6Y/ten.png",
+    "category": "Programming"
+  },
+  {
+    "id": 11,
+    "title": "Data Science with Python",
+    "instructor": "Anna Martinez",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Analyze data and build machine learning models using Python.",
+    "image": "https://i.ibb.co.com/6c8JMNbt/11.png",
+    "category": "Data Science"
+  },
+  {
+    "id": 12,
+    "title": "Machine Learning Fundamentals",
+    "instructor": "James Anderson",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Understand machine learning algorithms and applications.",
+    "image": "https://i.ibb.co.com/9HhgvK88/12.jpg",
+    "category": "Data Science"
+  },
+  {
+    "id": 13,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "Olivia Harris",
+    "duration": "19 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build cross-platform mobile applications using Flutter.",
+    "image": "https://i.ibb.co.com/fdjc399D/13.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 14,
+    "title": "Cybersecurity Basics",
+    "instructor": "William Scott",
+    "duration": "13 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn how to protect systems and data from cyber threats.",
+    "image": "https://i.ibb.co.com/DPMfvP9m/14.jpg",
+    "category": "Security"
+  },
+  {
+    "id": 15,
+    "title": "Cloud Computing Essentials",
+    "instructor": "Ethan Walker",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Understand cloud services and deployment models.",
+    "image": "https://i.ibb.co.com/7xB0b5gs/15.jpg",
+    "category": "Cloud"
+  },
+  {
+    "id": 16,
+    "title": "Project Management Professional",
+    "instructor": "Mia Robinson",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Manage projects efficiently using industry best practices.",
+    "image": "https://i.ibb.co.com/HppGrsrS/16.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 17,
+    "title": "Business Analytics",
+    "instructor": "Benjamin Hall",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Use data-driven insights to make business decisions.",
+    "image": "https://i.ibb.co.com/ynfhSz0Y/17.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 18,
+    "title": "Artificial Intelligence Foundations",
+    "instructor": "Emma Young",
+    "duration": "21 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Explore the core concepts and future of artificial intelligence.",
+    "image": "https://i.ibb.co.com/HLRMB920/18.jpg",
+    "category": "AI"
+  }
+]

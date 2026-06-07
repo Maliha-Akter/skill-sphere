@@ -15,7 +15,7 @@ const CourseDetailsPage = async({params}) => {
     const {title,instructor,duration,rating,level,price,description,longDescription,courseContent,lastUpdatedDate,requirements,image,category}= course;
 
     return (
-    <div className="container mx-auto py-10 px-4">
+    <div className="container mx-auto py-10 px-20">
 
       <div className="bg-transparent rounded-2xl shadow-lg overflow-hidden ">
         <div className="grid lg:grid-cols-2 lg:gap-8 gap-3 p-8 auto-rows-fr max-w-md mx-auto lg:max-w-none">

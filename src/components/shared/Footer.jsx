@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
 
         {/* Top Section */}
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-3 gap-10 text-center md:text-left ">
 
           {/* About */}
           <div>

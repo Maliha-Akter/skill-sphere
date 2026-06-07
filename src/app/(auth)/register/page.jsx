@@ -1,20 +1,48 @@
 "use client";
-
+import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/navigation";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 const RegisterPage = () => {
+    const router = useRouter();
     const {
         register,
         handleSubmit,
         formState: { errors }
     } = useForm();
 
-    const handleRegisterFunc = (data) => {
-        console.log(data);
-    };
+    const handleRegisterFunc = async (data) => {
+        // console.log(data);
+        const { email, name, photoURL, password } = data;
 
+        const { data: res, error } = await authClient.signUp.email({
+            name: name, // required
+            email: email, // required
+            password: password, // required
+            image: photoURL,
+            callbackURL: "/",
+        });
+        console.log(res, error);
+
+        if (error) {
+            alert(error.message);
+        }
+        if (res) {
+            alert("Sign up successful!");
+            router.push("/"); // This triggers the redirect to home
+        }
+    };
+    const [isShowPassword, setShowPassword] = useState(false);
+    const handleGoogleLogin = async () => {
+        await authClient.signIn.social({
+            provider: 'google',
+            callbackURL: '/'
+        });
+    };
     return (
         <div className="container mx-auto min-h-[80vh] flex justify-center items-center px-4 py-8">
 
@@ -25,6 +53,20 @@ const RegisterPage = () => {
                 </h1>
 
                 <div className="divider my-5"></div>
+                
+                <button
+                    type="button"
+                    onClick={handleGoogleLogin}
+                    className="btn w-full btn-outline border-gray-300 hover:bg-gray-50 text-gray-700 normal-case flex items-center justify-center gap-3 rounded-lg font-medium transition-colors"
+                >
+                    <FcGoogle size={22} />
+                    <span>Sign in with Google</span>
+                </button>
+                <div className="relative flex py-5 items-center">
+                    <div className="flex-grow border-t border-gray-200"></div>
+                    <span className="flex-shrink mx-4 text-gray-400 text-sm font-medium">or continue with</span>
+                    <div className="flex-grow border-t border-gray-200"></div>
+                </div>
 
                 <form
                     className="space-y-4"
@@ -104,7 +146,7 @@ const RegisterPage = () => {
                         </legend>
 
                         <input
-                            type="password"
+                            type={isShowPassword ? "text" : "password"}
                             {...register("password", {
                                 required: "Password Field is required",
                                 minLength: {
@@ -117,6 +159,11 @@ const RegisterPage = () => {
                             placeholder="Enter your password"
                         />
 
+                        <span className="relative -top-7 left-80 cursor-pointer" onClick={() => setShowPassword(!isShowPassword)}>
+                            {
+                                isShowPassword ? <FaEye size={15} ></FaEye> : <FaEyeSlash size={15}></FaEyeSlash>
+                            }
+                        </span>
                         {errors.password && (
                             <p className="text-red-500">
                                 {errors.password.message}

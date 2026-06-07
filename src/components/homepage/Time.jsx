@@ -11,7 +11,7 @@ const Time = async({}) => {
                         Time Management Tips
                     </h2>
         
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:px-2 px-10">
                         {tips.map((tip) => (
                             <TimeCard
                                 key={tip.id}

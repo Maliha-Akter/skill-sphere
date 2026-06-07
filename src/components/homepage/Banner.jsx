@@ -3,6 +3,9 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import education from '@/assets/edu.png';
+import Link from 'next/link';
+import { FcGoogle } from 'react-icons/fc';
+import { authClient } from '@/lib/auth-client';
 
 const banners = [
     {
@@ -54,6 +57,13 @@ const Banner = () => {
         return () => clearInterval(interval);
     }, []);
 
+    const handleGoogleLogin = async () => {
+        await authClient.signIn.social({
+            provider: 'google',
+            callbackURL: '/'
+        });
+    };
+
     return (
         <div className="hero container mx-auto mt-16">
             <div className="hero-content flex-col lg:flex-row-reverse gap-12">
@@ -66,7 +76,7 @@ const Banner = () => {
                 />
 
                 <div>
-                    <h1 className="text-5xl font-bold">
+                    <h1 className="text-3xl font-bold">
                         {banners[current].title}
                     </h1>
 
@@ -74,9 +84,19 @@ const Banner = () => {
                         {banners[current].description}
                     </p>
 
-                    <button className="btn bg-purple-900 text-white rounded-lg">
-                        Start Learning
-                    </button>
+                    <div className='flex gap-4'>
+                        <button className="btn bg-purple-900 text-white rounded-lg">
+                            <Link href={"/allCourses"}>Start Learning</Link>
+                        </button>
+                        <button
+                            type="button"
+                            onClick={handleGoogleLogin}
+                            className="btn btn-outline border-purple-900 hover:bg-purple-900 hover:text-white text-gray-700 normal-case flex items-center justify-center gap-3 rounded-lg font-medium transition-colors"
+                        >
+                            <FcGoogle size={22} />
+                            <span>Sign in with Google</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

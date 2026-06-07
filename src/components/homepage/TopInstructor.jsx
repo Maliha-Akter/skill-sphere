@@ -14,7 +14,7 @@ const TopInstructor = async({}) => {
                 Learn from experienced professionals and industry experts.
             </p>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:px-2 px-10">
                 {instructors.map((instructor) => (
                     <InstructorCard
                         key={instructor.id}

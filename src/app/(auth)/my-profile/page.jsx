@@ -1,6 +1,7 @@
-"use client"; // This must be at the very top to use the hook
+"use client"; 
 import React from 'react';
 import { authClient } from "@/lib/auth-client";
+import Link from 'next/link'; // Added Link for routing
 
 const MyProfilePage = () => {
     const { data: session, isPending } = authClient.useSession();
@@ -43,9 +44,16 @@ const MyProfilePage = () => {
                 <h1 className="text-3xl font-bold text-purple-900">{name}</h1>
                 <p className="text-gray-500 mt-1 font-medium">{email}</p>
 
+                {/* --- UPDATE INFORMATION --- */}
+                <Link 
+                    href="/my-profile/update" 
+                    className="btn bg-purple-900 hover:bg-purple-800 text-white rounded-lg px-6 mt-4 normal-case transition-colors"
+                >
+                    Update Information
+                </Link>
+
                 <div className="divider my-6 w-full"></div>
 
-                {/* Optional Account Metadata */}
                 <div className="w-full text-left space-y-3 bg-gray-50 p-4 rounded-xl">
                     <div className="flex justify-between text-sm">
                         <span className="text-gray-500 font-medium">Account Status</span>

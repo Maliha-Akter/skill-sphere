@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Set Clear Learning Goals",
+    "description": "Define what you want to achieve before starting a course to stay focused and motivated."
+  },
+  {
+    "id": 2,
+    "title": "Practice Consistently",
+    "description": "Spend a little time every day learning instead of cramming everything into one session."
+  },
+  {
+    "id": 3,
+    "title": "Take Effective Notes",
+    "description": "Write down key concepts and summarize lessons to improve retention."
+  },
+  {
+    "id": 4,
+    "title": "Apply What You Learn",
+    "description": "Build projects and solve real-world problems to strengthen your skills."
+  }
+]

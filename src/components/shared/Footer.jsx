@@ -2,7 +2,7 @@ import { FaFacebookF, FaLinkedinIn, FaGithub, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mt-120 container mx-auto border-t border-purple-100 bg-white/40 backdrop-blur-sm ">
+    <footer className="mt-20 container mx-auto border-t border-purple-100 bg-white/40 backdrop-blur-sm ">
       <div className="container mx-auto px-6 py-12">
 
         {/* Top Section */}

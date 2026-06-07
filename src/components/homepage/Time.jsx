@@ -1,20 +1,19 @@
+import { getTime } from '@/lib/AllFunction';
 import React from 'react';
-import { FaLightbulb } from 'react-icons/fa';
-import LearningTipCard from './LearningTipCard';
-import { getStudy } from '@/lib/AllFunction';
+import TimeCard from './TimeCard';
 
-const LearningTips = async({}) => {
-    const tips = await getStudy();
+const Time = async({}) => {
+    const tips = await getTime();
     return (
         
         <div className="container mx-auto py-16">
-                    <h2 className="text-4xl font-bold text-center mb-10 text-orange-400">
-                        Learning Tips
+                    <h2 className="text-4xl font-bold text-center mb-10 text-sky-600">
+                        Time Management Tips
                     </h2>
         
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {tips.map((tip) => (
-                            <LearningTipCard
+                            <TimeCard
                                 key={tip.id}
                                 tip={tip}
                             />
@@ -24,4 +23,4 @@ const LearningTips = async({}) => {
     );
 };
 
-export default LearningTips;
+export default Time;

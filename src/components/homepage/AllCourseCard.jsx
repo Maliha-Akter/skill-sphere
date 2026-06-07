@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const AllCourseCard = ({ course }) => {
     const {
+        id,
         image,
         title,
         instructor,
@@ -69,12 +71,16 @@ const AllCourseCard = ({ course }) => {
                 </div>
 
                 <div className="mt-auto flex gap-3 flex-col">
-                    <button className="btn bg-purple-900 w-full text-white rounded-lg">
-                        Enroll Now
-                    </button>
-                    <button className="btn bg-transparent w-full border-2 border-purple-900 rounded-lg">
-                        View Details
-                    </button>
+                    <Link href={`/courseDetails/${id}`}>
+                        <button className="btn bg-purple-900 w-full text-white rounded-lg">
+                            Enroll Now
+                        </button>
+                    </Link>
+                    <Link href={"/login"}>
+                        <button className="btn bg-transparent w-full border-2 border-purple-900 rounded-lg">
+                            View Details
+                        </button>
+                    </Link>
                 </div>
 
             </div>

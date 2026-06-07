@@ -8,6 +8,25 @@
     "level": "Beginner",
     "price": "$9.99",
     "description": "Learn full-stack web development from scratch.",
+    "longDescription": "This comprehensive bootcamp takes you from absolute beginner to job-ready web developer. You will learn HTML, CSS, JavaScript, responsive design, frontend frameworks, backend development, databases, authentication, deployment, and real-world project building. Throughout the course, you will work on practical projects that help strengthen your portfolio and gain confidence in building complete web applications.",
+    "courseContent": [
+      "Introduction to Web Development",
+      "HTML5 Fundamentals",
+      "CSS3 and Responsive Design",
+      "JavaScript Essentials",
+      "DOM Manipulation",
+      "React Fundamentals",
+      "Node.js and Express",
+      "MongoDB Database Integration",
+      "Authentication and Authorization",
+      "Deployment and Portfolio Projects"
+    ],
+    "lastUpdatedDate": "2026-05-15",
+    "requirements": [
+      "Basic computer skills",
+      "Internet connection",
+      "No prior programming experience required"
+    ],
     "image": "https://i.ibb.co.com/F4Wm44S9/one.jpg",
     "category": "Development"
   },
@@ -20,6 +39,25 @@
     "level": "Intermediate",
     "price": "$14.99",
     "description": "Build modern web applications using React and Next.js.",
+    "longDescription": "Master advanced React patterns and Next.js development techniques. Learn server-side rendering, static site generation, API routes, authentication, state management, performance optimization, and production deployment. Build scalable applications using industry-standard best practices and modern frontend architecture.",
+    "courseContent": [
+      "React Refresher",
+      "Advanced Hooks",
+      "Context API and State Management",
+      "Next.js Fundamentals",
+      "Server-Side Rendering",
+      "Static Site Generation",
+      "Authentication",
+      "API Routes",
+      "Performance Optimization",
+      "Production Deployment"
+    ],
+    "lastUpdatedDate": "2026-04-20",
+    "requirements": [
+      "Basic React knowledge",
+      "JavaScript ES6 understanding",
+      "Experience with frontend development"
+    ],
     "image": "https://i.ibb.co.com/FqwQLj10/two.jpg",
     "category": "Development"
   },
@@ -32,6 +70,25 @@
     "level": "Beginner",
     "price": "$12.99",
     "description": "Master JavaScript fundamentals and advanced concepts.",
+    "longDescription": "Build a strong foundation in JavaScript while exploring advanced concepts such as closures, asynchronous programming, promises, ES6+, modules, object-oriented programming, and modern development practices. The course focuses on practical coding exercises and real-world examples.",
+    "courseContent": [
+      "JavaScript Basics",
+      "Variables and Data Types",
+      "Functions and Scope",
+      "Arrays and Objects",
+      "DOM Manipulation",
+      "Events and Event Handling",
+      "Asynchronous JavaScript",
+      "ES6 Features",
+      "OOP in JavaScript",
+      "Real-world Projects"
+    ],
+    "lastUpdatedDate": "2026-03-12",
+    "requirements": [
+      "Basic computer literacy",
+      "Code editor installed",
+      "No prior coding experience required"
+    ],
     "image": "https://i.ibb.co.com/0pTxFjCQ/three.png",
     "category": "Development"
   },
@@ -44,6 +101,25 @@
     "level": "Beginner",
     "price": "$19.99",
     "description": "Learn the principles of user interface and user experience design.",
+    "longDescription": "Understand the foundations of creating visually appealing and user-friendly digital products. Learn design thinking, wireframing, prototyping, usability testing, accessibility, and user research techniques used by professional designers.",
+    "courseContent": [
+      "Introduction to UI/UX",
+      "Design Principles",
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Typography",
+      "Color Theory",
+      "Accessibility",
+      "Usability Testing",
+      "Final Design Project"
+    ],
+    "lastUpdatedDate": "2026-02-28",
+    "requirements": [
+      "Interest in design",
+      "Computer with internet access",
+      "No prior design experience needed"
+    ],
     "image": "https://i.ibb.co.com/6cvHjzq2/Four.jpg",
     "category": "Design"
   },
@@ -56,6 +132,24 @@
     "level": "Beginner",
     "price": "$9.99",
     "description": "Design professional interfaces and prototypes using Figma.",
+    "longDescription": "Learn how to use Figma efficiently for UI design, collaboration, prototyping, design systems, and responsive layouts. By the end of the course, you'll be able to create professional-grade designs and collaborate effectively with development teams.",
+    "courseContent": [
+      "Figma Interface Overview",
+      "Frames and Layouts",
+      "Components",
+      "Auto Layout",
+      "Design Systems",
+      "Interactive Prototypes",
+      "Collaboration Features",
+      "Responsive Design",
+      "Developer Handoff",
+      "Portfolio Project"
+    ],
+    "lastUpdatedDate": "2026-05-05",
+    "requirements": [
+      "Free Figma account",
+      "Computer with internet access"
+    ],
     "image": "https://i.ibb.co.com/B5zt7ZYD/five.png",
     "category": "Design"
   },
@@ -68,6 +162,24 @@
     "level": "Intermediate",
     "price": "$24.99",
     "description": "Create stunning visual designs and branding materials.",
+    "longDescription": "Develop professional graphic design skills through hands-on projects. Learn branding, typography, color theory, layout design, advertising materials, social media graphics, and portfolio creation using industry-standard techniques.",
+    "courseContent": [
+      "Graphic Design Fundamentals",
+      "Typography",
+      "Color Theory",
+      "Brand Identity",
+      "Logo Design",
+      "Print Design",
+      "Social Media Graphics",
+      "Marketing Materials",
+      "Portfolio Building",
+      "Final Project"
+    ],
+    "lastUpdatedDate": "2026-01-18",
+    "requirements": [
+      "Basic design knowledge",
+      "Design software access"
+    ],
     "image": "https://i.ibb.co.com/PskwK6wG/six.jpg",
     "category": "Design"
   },
@@ -80,6 +192,24 @@
     "level": "Beginner",
     "price": "$14.99",
     "description": "Understand the basics of digital marketing and online growth.",
+    "longDescription": "Learn the core pillars of digital marketing including content marketing, SEO, email campaigns, paid advertising, social media strategies, and analytics. Gain practical knowledge to grow businesses online.",
+    "courseContent": [
+      "Digital Marketing Overview",
+      "Content Marketing",
+      "SEO Basics",
+      "Email Marketing",
+      "Social Media Marketing",
+      "Paid Advertising",
+      "Analytics Tools",
+      "Marketing Funnels",
+      "Campaign Optimization",
+      "Case Studies"
+    ],
+    "lastUpdatedDate": "2026-04-08",
+    "requirements": [
+      "Internet access",
+      "Basic understanding of websites"
+    ],
     "image": "https://i.ibb.co.com/5xXRRDfX/seven.png",
     "category": "Marketing"
   },
@@ -92,6 +222,24 @@
     "level": "Intermediate",
     "price": "$19.99",
     "description": "Improve website visibility through effective SEO techniques.",
+    "longDescription": "Master on-page SEO, technical SEO, keyword research, backlink building, search intent optimization, and content strategy. Learn how to rank websites higher and drive organic traffic consistently.",
+    "courseContent": [
+      "SEO Fundamentals",
+      "Keyword Research",
+      "On-page SEO",
+      "Technical SEO",
+      "Link Building",
+      "Content Optimization",
+      "SEO Tools",
+      "Analytics and Reporting",
+      "Local SEO",
+      "SEO Strategy Project"
+    ],
+    "lastUpdatedDate": "2026-05-21",
+    "requirements": [
+      "Basic website knowledge",
+      "Interest in search marketing"
+    ],
     "image": "https://i.ibb.co.com/hb7LLrB/eight.jpg",
     "category": "Marketing"
   },
@@ -104,6 +252,24 @@
     "level": "Beginner",
     "price": "$12.99",
     "description": "Grow brands and engage audiences through social platforms.",
+    "longDescription": "Learn how to create successful social media campaigns, increase engagement, build brand awareness, and generate leads using platforms such as Facebook, Instagram, LinkedIn, TikTok, and X.",
+    "courseContent": [
+      "Social Media Fundamentals",
+      "Platform Strategies",
+      "Content Creation",
+      "Audience Research",
+      "Community Building",
+      "Advertising Campaigns",
+      "Influencer Marketing",
+      "Analytics",
+      "Growth Strategies",
+      "Campaign Project"
+    ],
+    "lastUpdatedDate": "2026-03-29",
+    "requirements": [
+      "Basic social media familiarity",
+      "Internet access"
+    ],
     "image": "https://i.ibb.co.com/0pwHGSsG/nine.png",
     "category": "Marketing"
   },
@@ -116,6 +282,24 @@
     "level": "Beginner",
     "price": "$29.99",
     "description": "Learn Python programming from the ground up.",
+    "longDescription": "Start your programming journey with Python. Learn syntax, variables, loops, functions, object-oriented programming, file handling, and project development through beginner-friendly lessons and exercises.",
+    "courseContent": [
+      "Python Introduction",
+      "Variables and Data Types",
+      "Control Flow",
+      "Functions",
+      "Lists and Dictionaries",
+      "File Handling",
+      "Object-Oriented Programming",
+      "Error Handling",
+      "Modules and Packages",
+      "Final Python Project"
+    ],
+    "lastUpdatedDate": "2026-05-10",
+    "requirements": [
+      "Computer with Python installed",
+      "No prior coding experience required"
+    ],
     "image": "https://i.ibb.co.com/wFWWjz6Y/ten.png",
     "category": "Programming"
   },
@@ -128,6 +312,25 @@
     "level": "Intermediate",
     "price": "$34.99",
     "description": "Analyze data and build machine learning models using Python.",
+    "longDescription": "This course provides a complete introduction to data science using Python. Learn how to collect, clean, analyze, and visualize data while exploring machine learning fundamentals. Through real-world datasets and projects, you'll gain hands-on experience with industry-standard tools used by data scientists worldwide.",
+    "courseContent": [
+      "Introduction to Data Science",
+      "Python for Data Analysis",
+      "NumPy Fundamentals",
+      "Pandas for Data Manipulation",
+      "Data Cleaning Techniques",
+      "Data Visualization with Matplotlib",
+      "Exploratory Data Analysis",
+      "Machine Learning Basics",
+      "Model Evaluation",
+      "Capstone Data Science Project"
+    ],
+    "lastUpdatedDate": "2026-05-22",
+    "requirements": [
+      "Basic Python knowledge",
+      "Computer with Python installed",
+      "Interest in data analysis"
+    ],
     "image": "https://i.ibb.co.com/6c8JMNbt/11.png",
     "category": "Data Science"
   },
@@ -140,6 +343,25 @@
     "level": "Advanced",
     "price": "$49.99",
     "description": "Understand machine learning algorithms and applications.",
+    "longDescription": "Explore the foundations of machine learning and artificial intelligence. Learn supervised and unsupervised learning, model training, evaluation techniques, and practical implementation using Python. Build predictive models and understand how machine learning powers modern applications.",
+    "courseContent": [
+      "Introduction to Machine Learning",
+      "Data Preparation",
+      "Supervised Learning",
+      "Regression Algorithms",
+      "Classification Models",
+      "Unsupervised Learning",
+      "Clustering Techniques",
+      "Model Evaluation Metrics",
+      "Hyperparameter Tuning",
+      "Machine Learning Project"
+    ],
+    "lastUpdatedDate": "2026-04-30",
+    "requirements": [
+      "Intermediate Python skills",
+      "Basic statistics knowledge",
+      "Understanding of data analysis concepts"
+    ],
     "image": "https://i.ibb.co.com/9HhgvK88/12.jpg",
     "category": "Data Science"
   },
@@ -152,6 +374,25 @@
     "level": "Intermediate",
     "price": "$24.99",
     "description": "Build cross-platform mobile applications using Flutter.",
+    "longDescription": "Learn how to create beautiful and high-performance mobile applications using Flutter and Dart. This course covers UI design, state management, API integration, local storage, authentication, and app deployment for both Android and iOS platforms.",
+    "courseContent": [
+      "Flutter and Dart Basics",
+      "Setting Up Development Environment",
+      "Widgets and Layouts",
+      "Navigation and Routing",
+      "State Management",
+      "Working with APIs",
+      "Firebase Integration",
+      "Authentication",
+      "Local Storage",
+      "Publishing Mobile Apps"
+    ],
+    "lastUpdatedDate": "2026-05-14",
+    "requirements": [
+      "Basic programming knowledge",
+      "Flutter SDK installed",
+      "Android Studio or VS Code"
+    ],
     "image": "https://i.ibb.co.com/fdjc399D/13.jpg",
     "category": "Development"
   },
@@ -164,6 +405,25 @@
     "level": "Beginner",
     "price": "$19.99",
     "description": "Learn how to protect systems and data from cyber threats.",
+    "longDescription": "Gain a strong foundation in cybersecurity concepts, including network security, malware protection, risk management, password security, encryption, and safe online practices. Understand common threats and how organizations defend against cyber attacks.",
+    "courseContent": [
+      "Introduction to Cybersecurity",
+      "Cyber Threat Landscape",
+      "Network Security Basics",
+      "Password and Authentication Security",
+      "Malware and Ransomware",
+      "Data Protection",
+      "Encryption Fundamentals",
+      "Security Best Practices",
+      "Incident Response",
+      "Cybersecurity Case Studies"
+    ],
+    "lastUpdatedDate": "2026-03-20",
+    "requirements": [
+      "Basic computer skills",
+      "Internet access",
+      "No cybersecurity experience required"
+    ],
     "image": "https://i.ibb.co.com/DPMfvP9m/14.jpg",
     "category": "Security"
   },
@@ -176,6 +436,25 @@
     "level": "Intermediate",
     "price": "$29.99",
     "description": "Understand cloud services and deployment models.",
+    "longDescription": "Learn the core principles of cloud computing and how businesses leverage cloud technologies. Explore cloud service models, virtualization, storage solutions, deployment strategies, security considerations, and leading cloud platforms such as AWS, Azure, and Google Cloud.",
+    "courseContent": [
+      "Cloud Computing Overview",
+      "Virtualization Concepts",
+      "Cloud Service Models",
+      "Cloud Deployment Models",
+      "Storage and Databases",
+      "Networking in the Cloud",
+      "Cloud Security",
+      "AWS Fundamentals",
+      "Azure and Google Cloud",
+      "Cloud Project Deployment"
+    ],
+    "lastUpdatedDate": "2026-05-02",
+    "requirements": [
+      "Basic IT knowledge",
+      "Computer with internet access",
+      "Understanding of networking fundamentals"
+    ],
     "image": "https://i.ibb.co.com/7xB0b5gs/15.jpg",
     "category": "Cloud"
   },
@@ -188,6 +467,25 @@
     "level": "Intermediate",
     "price": "$39.99",
     "description": "Manage projects efficiently using industry best practices.",
+    "longDescription": "Develop the skills needed to successfully manage projects from initiation to completion. Learn project planning, scheduling, budgeting, risk management, stakeholder communication, Agile methodologies, and leadership techniques used by project managers worldwide.",
+    "courseContent": [
+      "Project Management Fundamentals",
+      "Project Planning",
+      "Scope Management",
+      "Time and Schedule Management",
+      "Budgeting and Cost Control",
+      "Risk Management",
+      "Stakeholder Communication",
+      "Agile and Scrum",
+      "Project Monitoring",
+      "Project Closure"
+    ],
+    "lastUpdatedDate": "2026-04-18",
+    "requirements": [
+      "Basic business knowledge",
+      "Interest in leadership and management",
+      "No project management certification required"
+    ],
     "image": "https://i.ibb.co.com/HppGrsrS/16.jpg",
     "category": "Business"
   },
@@ -200,6 +498,25 @@
     "level": "Intermediate",
     "price": "$34.99",
     "description": "Use data-driven insights to make business decisions.",
+    "longDescription": "Learn how to transform business data into actionable insights. This course covers data analysis techniques, reporting, visualization, forecasting, KPI tracking, and decision-making frameworks that help organizations improve performance and achieve strategic goals.",
+    "courseContent": [
+      "Introduction to Business Analytics",
+      "Data Collection Methods",
+      "Data Visualization",
+      "Business Intelligence Tools",
+      "Key Performance Indicators",
+      "Forecasting Techniques",
+      "Customer Analytics",
+      "Financial Analytics",
+      "Decision-Making Frameworks",
+      "Business Analytics Project"
+    ],
+    "lastUpdatedDate": "2026-05-11",
+    "requirements": [
+      "Basic spreadsheet knowledge",
+      "Interest in business strategy",
+      "Analytical thinking skills"
+    ],
     "image": "https://i.ibb.co.com/ynfhSz0Y/17.jpg",
     "category": "Business"
   },
@@ -212,6 +529,25 @@
     "level": "Advanced",
     "price": "$49.99",
     "description": "Explore the core concepts and future of artificial intelligence.",
+    "longDescription": "Dive into the world of artificial intelligence and understand the technologies shaping the future. Learn about machine learning, neural networks, deep learning, natural language processing, computer vision, AI ethics, and real-world AI applications across industries.",
+    "courseContent": [
+      "Introduction to Artificial Intelligence",
+      "History of AI",
+      "Machine Learning Overview",
+      "Neural Networks",
+      "Deep Learning Fundamentals",
+      "Natural Language Processing",
+      "Computer Vision",
+      "AI Ethics and Bias",
+      "Generative AI",
+      "Future Trends in Artificial Intelligence"
+    ],
+    "lastUpdatedDate": "2026-05-28",
+    "requirements": [
+      "Intermediate programming knowledge",
+      "Basic understanding of mathematics",
+      "Interest in AI technologies"
+    ],
     "image": "https://i.ibb.co.com/HLRMB920/18.jpg",
     "category": "AI"
   }

@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "title": "Create a Study Schedule",
+      "description": "Allocate specific hours each week for learning and stick to your routine."
+    },
+    {
+      "id": 2,
+      "title": "Use the Pomodoro Technique",
+      "description": "Study for 25 minutes, take a 5-minute break, and repeat to stay productive."
+    },
+    {
+      "id": 3,
+      "title": "Avoid Distractions",
+      "description": "Turn off notifications and create a focused study environment."
+    },
+    {
+      "id": 4,
+      "title": "Prioritize Important Tasks",
+      "description": "Complete challenging lessons first when your energy and focus are highest."
+    }
+  ]

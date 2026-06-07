@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "speciality": "Full Stack Web Development",
+    "experience": "8 Years Experience",
+    "students": "12,500+ Students",
+    "image": "https://i.ibb.co.com/zHCCBrvb/friend-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Wilson",
+    "speciality": "React & Next.js",
+    "experience": "6 Years Experience",
+    "students": "9,800+ Students",
+    "image": "https://i.ibb.co.com/My1Cg030/friend-3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Emily Davis",
+    "speciality": "UI/UX Design",
+    "experience": "7 Years Experience",
+    "students": "11,200+ Students",
+    "image": "https://i.ibb.co.com/rGMk5Fzh/friend-5.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chris Johnson",
+    "speciality": "Digital Marketing",
+    "experience": "10 Years Experience",
+    "students": "15,000+ Students",
+    "image": "https://i.ibb.co.com/WN2jQGFS/friend-6.jpg"
+  }
+]

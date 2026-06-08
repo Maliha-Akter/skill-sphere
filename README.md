@@ -6,7 +6,7 @@ SkillSphere is a modern online learning platform where users can explore courses
 
 ## Live URL
 
-https://skill-sphere-psi-tawny.vercel.app/
+https://skill-sphere-th2p.vercel.app/
 
 ## Key Features
 

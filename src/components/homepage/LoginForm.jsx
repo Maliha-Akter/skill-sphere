@@ -111,7 +111,7 @@ const LoginForm = () => {
                 </button>
             </form>
 
-            {/* Divider design*/}
+            {/* Divider */}
             <div className="relative flex py-5 items-center">
                 <div className="grow border-t border-gray-200"></div>
                 <span className="shrink mx-4 text-gray-400 text-sm font-medium">

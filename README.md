@@ -2,7 +2,7 @@
 
 ## Purpose
 
-SkillSphere is a modern online learning platform where users can explore courses, view course details, and manage their profiles through secure authentication.
+SkillSphere is a modern online learning platform where users can explore courses, view course details, and manage their profiles through secure authentication. It also provides a personalized learning experience with easy navigation and a clean, responsive interface across all devices.
 
 ## Live URL
 

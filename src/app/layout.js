@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/shared/Header";
 import Navbar from "@/components/shared/Navbar";
+import { ToastContainer } from "react-toastify";
 
 const poppins = Poppins({
   variable: "font-poppins",
@@ -28,7 +29,9 @@ export default function RootLayout({ children }) {
     >
       <body className={`${poppins.className} min-h-full flex flex-col`}>
 
-        {children}</body>
+        {children}
+        <ToastContainer />
+        </body>
     </html>
   );
 }

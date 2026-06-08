@@ -39,7 +39,7 @@ const Footer = () => {
               Follow Us
             </h3>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center md:items-start justify-center md:justify-start">
               <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-purple-100 hover:bg-purple-900 hover:text-white transition flex items-center justify-center"

@@ -11,7 +11,7 @@ const PopularCourses = async ({ }) => {
     const topRatedCourses = sortedByRating.slice(0, 3);
     return (
         <div className="container mx-auto py-10 mt-4">
-            <h2 className='font-bold text-3xl mb-4 text-purple-900 text-center'>Popular Courses</h2>
+            <h2 className='font-bold text-3xl mb-4 text-purple-900 text-center'> Popular Courses</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr max-w-md mx-auto md:max-w-none">
                 {topRatedCourses.map(course => (
                     <AllCourseCard

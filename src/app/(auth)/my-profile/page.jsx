@@ -3,8 +3,9 @@ import React from 'react';
 import { authClient } from "@/lib/auth-client";
 import Link from 'next/link'; // Added Link for routing
 
+
 const MyProfilePage = () => {
-    const { data: session, isPending } = authClient.useSession();
+    const { data: session, isPending } = authClient.useSession(); 
 
     if (isPending) {
         return (

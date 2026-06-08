@@ -1,11 +1,16 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import education from '@/assets/edu.png';
 import Link from 'next/link';
 import { FcGoogle } from 'react-icons/fc';
 import { authClient } from '@/lib/auth-client';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+
+import 'swiper/css';
 
 const banners = [
     {
@@ -47,15 +52,7 @@ const banners = [
 ];
 
 const Banner = () => {
-    const [current, setCurrent] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrent((prev) => (prev + 1) % banners.length);
-        }, 2000);
-
-        return () => clearInterval(interval);
-    }, []);
+    const { data: session } = authClient.useSession();
 
     const handleGoogleLogin = async () => {
         await authClient.signIn.social({
@@ -66,28 +63,50 @@ const Banner = () => {
 
     return (
         <div className="hero container mx-auto mt-16">
-            <div className="hero-content flex-col lg:flex-row-reverse gap-12">
+            <div className="hero-content grid grid-cols-1 md:grid-cols-2 gap-12 w-full">
+
                 <Image
                     src={education}
                     height={400}
                     width={400}
                     alt="education"
-                    className="max-w-sm"
+                    className="max-w-sm mx-auto md:mx-0"
                 />
 
-                <div>
-                    <h1 className="text-3xl font-bold">
-                        {banners[current].title}
-                    </h1>
+                <div className="max-w-xl">
 
-                    <p className="py-6 text-gray-600 max-w-xl">
-                        {banners[current].description}
-                    </p>
+                    <Swiper
+                        modules={[Autoplay]}
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        }}
+                        loop={true}
+                        speed={800}
+                    >
+                        {banners.map((banner) => (
+                            <SwiperSlide key={banner.id}>
+                                <div className="w-full">
+                                    <h1 className="text-3xl font-bold">
+                                        {banner.title}
+                                    </h1>
 
-                    <div className='flex gap-4'>
-                        <button className="btn bg-purple-900 text-white rounded-lg">
-                            <Link href={"/allCourses"}>Start Learning</Link>
-                        </button>
+                                    <p className="py-6 text-gray-600 whitespace-normal">
+                                        {banner.description}
+                                    </p>
+                                </div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+
+                    <div className="flex gap-4 mt-4">
+                        <Link
+                            href={session ? "/allCourses" : "/login"}
+                            className="btn bg-purple-900 text-white rounded-lg hover:bg-transparent hover:border-purple-900 hover:text-purple-900"
+                        >
+                            Start Learning
+                        </Link>
+
                         <button
                             type="button"
                             onClick={handleGoogleLogin}
@@ -97,7 +116,9 @@ const Banner = () => {
                             <span>Sign in with Google</span>
                         </button>
                     </div>
+
                 </div>
+
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
 
 const UpdateProfilePage = () => {
     const router = useRouter();
@@ -22,11 +23,11 @@ const UpdateProfilePage = () => {
         });
 
         if (result.error) {
-            alert(result.error.message);
+            toast.error(result.error.message);
             return;
         }
 
-        alert("Profile updated successfully!");
+        toast.success("Profile updated successfully!");
         router.push("/my-profile");
         router.refresh();
     };

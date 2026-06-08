@@ -47,7 +47,7 @@ const AllCourses = async ({ searchParams }) => {
 
             {/* 4. COURSES DISPLAY */}
             {filteredCourses.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr max-w-md mx-auto md:max-w-none">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr max-w-md mx-auto md:max-w-none  ">
                     {filteredCourses.map(course => (
                         <AllCourseCard
                             key={course.id}

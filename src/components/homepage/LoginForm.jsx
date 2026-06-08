@@ -1,0 +1,144 @@
+"use client";
+
+import { authClient } from "@/lib/auth-client";
+import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+import { toast } from "react-toastify";
+
+const LoginForm = () => {
+    const { register, handleSubmit, formState: { errors } } = useForm();
+    const [isShowPassword, setShowPassword] = useState(false);
+
+    const router = useRouter();
+    const searchParams = useSearchParams();
+
+    const callbackURL = searchParams.get("callbackUrl") || "/";
+
+    const handleLoginFunc = async (data) => {
+        const { email, password } = data;
+
+        const { data: res, error } = await authClient.signIn.email({
+            email,
+            password,
+            rememberMe: true,
+            callbackURL: callbackURL
+        });
+
+        console.log(res, error);
+
+        if (!error) {
+            toast.success("Successfully logged in!");
+            router.push(callbackURL);
+            router.refresh(); 
+        }
+        if (error) {
+            toast.error("Wrong pass or email");
+        }
+    };
+
+    const handleGoogleLogin = async () => {
+        await authClient.signIn.social({
+            provider: 'google',
+            callbackURL: callbackURL
+        });
+    };
+
+    return (
+        <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-8 md:p-10">
+            <h1 className="text-3xl font-bold text-center text-purple-900">
+                Login your account
+            </h1>
+
+            <div className="divider my-5"></div>
+
+            <form className="space-y-4" onSubmit={handleSubmit(handleLoginFunc)}>
+                {/* Email */}
+                <fieldset className="fieldset">
+                    <legend className="fieldset-legend text-base font-semibold">
+                        Email Address
+                    </legend>
+                    <input
+                        type="email"
+                        {...register("email", { required: "Email Field is required" })}
+                        className="input input-bordered w-full"
+                        placeholder="Enter your email address"
+                    />
+                    {errors.email && (
+                        <p className="text-red-500 text-sm mt-1">
+                            {errors.email.message}
+                        </p>
+                    )}
+                </fieldset>
+
+                {/* Password */}
+                <fieldset className="fieldset relative">
+                    <legend className="fieldset-legend text-base font-semibold">
+                        Password
+                    </legend>
+
+                    <div className="relative w-full">
+                        <input
+                            type={isShowPassword ? "text" : "password"}
+                            {...register("password", { required: "Password Field is required" })}
+                            className="input input-bordered w-full pr-10"
+                            placeholder="Enter your password"
+                        />
+                        <span
+                            className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer text-gray-500 hover:text-purple-900 z-10"
+                            onClick={() => setShowPassword(!isShowPassword)}
+                        >
+                            {isShowPassword ? <FaEye size={16} /> : <FaEyeSlash size={16} />}
+                        </span>
+                    </div>
+
+                    {errors.password && (
+                        <p className="text-red-500 text-sm mt-1">
+                            {errors.password.message}
+                        </p>
+                    )}
+                </fieldset>
+
+                {/* Login Button */}
+                <button
+                    type="submit"
+                    className="btn w-full bg-purple-900 hover:bg-purple-800 text-white border-none mt-2"
+                >
+                    Login
+                </button>
+            </form>
+
+            {/* Divider design*/}
+            <div className="relative flex py-5 items-center">
+                <div className="grow border-t border-gray-200"></div>
+                <span className="shrink mx-4 text-gray-400 text-sm font-medium">
+                    or continue with
+                </span>
+                <div className="grow border-t border-gray-200"></div>
+            </div>
+
+            {/* Google Login */}
+            <button
+                type="button"
+                onClick={handleGoogleLogin}
+                className="btn w-full btn-outline border-gray-300 hover:bg-gray-50 text-gray-700 flex items-center justify-center gap-3 rounded-lg font-medium"
+            >
+                <FcGoogle size={22} />
+                <span>Sign in with Google</span>
+            </button>
+
+            {/* Register */}
+            <p className="text-center mt-8 text-gray-600">
+                Don't Have An Account?{" "}
+                <Link href="/register" className="text-purple-700 font-semibold hover:underline">
+                    Register
+                </Link>
+            </p>
+        </div>
+    );
+};
+
+export default LoginForm;

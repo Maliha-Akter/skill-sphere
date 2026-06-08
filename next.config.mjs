@@ -1,34 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   output: 'standalone',
+
   experimental: {
-    serverComponentsExternalPackages: ['@better-auth/kysely-adapter', 'kysely'],
-  },
-  // images: {
-  //   remotePatterns: [
-  //     {
-  //       protocol: 'https',
-  //       hostname: '**',
-  //       port: '',
-  //       pathname: '/**',
-  //     },
-  //   ],
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-        port: '',
-        pathname: '/**',
-        search: '',
-      },
-      {
-        protocol: 'https',
-        hostname: 'images.pexels.com',
-      }
+    serverComponentsExternalPackages: [
+      '@better-auth/kysely-adapter',
+      'kysely',
     ],
-    
+  },
+
+  images: {
+    unoptimized: true,
   },
 };
 

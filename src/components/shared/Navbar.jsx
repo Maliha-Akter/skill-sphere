@@ -77,7 +77,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="btn btn-ghost text-xl lg:text-2xl font-bold text-purple-900 flex items-center gap-2 hover:bg-purple-100/50 rounded-xl transition-colors">
           <IoSchoolOutline size={26} />
-          <span className="tracking-wide">SkillSphere</span>
+          <span className="tracking-wide">SkillSphere-Online</span>
         </Link>
       </div>
 
@@ -93,7 +93,7 @@ const Navbar = () => {
 
       {/* RIGHT SECTION: */}
       <div className="navbar-end gap-3">
-        {/* Dynamic Search Activation Icon Button */}
+
         {pathname === "/allCourses" && (
           <button
             onClick={() => document.getElementById("search-input-field")?.focus()}

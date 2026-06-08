@@ -7,7 +7,6 @@ import TopInstructor from "@/components/homepage/TopInstructor";
 import Image from "next/image";
 import React, { Suspense } from "react"; 
 
-// 1. Move all sections into a combined home content component
 const HomeContent = () => {
   return (
     <>
@@ -21,7 +20,7 @@ const HomeContent = () => {
   );
 };
 
-// 2. Main export wraps EVERYTHING in Suspense to stop the Vercel build crash entirely
+
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center font-sans dark:bg-black w-full">
